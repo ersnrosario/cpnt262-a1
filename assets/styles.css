@@ -1,0 +1,27 @@
+/*header style*/
+h1 {
+  width: 400px;
+  margin: auto;
+  padding-top: 200px;
+}
+/*button style*/
+button {
+  font-size: 15px;
+  padding: 20px;
+}
+
+button:hover {
+  box-shadow: 10px 10px 10px rgba(226, 135, 135, 0.404);
+}
+
+button:active {
+  background-color: lightsalmon;
+  color: white;
+}
+
+.btn {
+  width: 400px;
+  margin: auto;
+  margin-top: 70px;
+  text-align:center;
+}
