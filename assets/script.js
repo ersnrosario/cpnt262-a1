@@ -1,9 +1,9 @@
 let button = document.querySelector('button');
 
-let randNum = function() {
+let randomnumber = function() {
   let num = Math.floor(Math.random() * 100);
-  document.getElementById("number").innerHTML = num;
+  document.getElementById("number").innerHTML=num;
 
 };
 
-button.addEventListener('click', randNum);
+button.addEventListener('click', randomnumber);
